@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+<title>디미고</title>
+<meta charest="utf-8">
+<style>
+    table{
+        width: 80%;
+        border: 2px solid #222;
+        border-collapse: collapse;        
+    }
+    th, td{
+        border:2px solid #cccccc;
+        padding: 5px;
+        font-size: 0.8em;
+    }
+</style>
+</head>
+
+<body>
+스마트문화앱콘텐츠제작
+
+
+<!--테이블 만들때 필요한 태그 table, tr(줄), td(칸), th(줄 제목,볼드체)-->
+<br>
+<figure>
+<table border="1">
+    <!--표에 제목 붙이기=<caption>--(ctrl+/=주석 단축키)>
+    <!- <caption><strong>디미고 학생 소개 페이지</strong><p>디미고 학생 연락처</p></caption> -->
+    <!-- thead, tbody, tfoor 태그를 사용 표의 구조를 정의한다.->화면 낭동기 구조를 알 수 있다. -->
+    <!-- 여러 열 묶어 스타일 지정하시 colgroup col -->
+    <colgroup>
+    <col>
+    <col span="3" style="background-color:blanchedalmond">
+    </colgroup>
+    <thead>
+        <tr>
+            <th>학번</th>
+            <td>3201</td>
+            <th>이름</th>
+            <td>홍길동</td>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <th>연락처</th>
+                <td colspan="3">010-7589-9984</td>
+            </tr>
+         </tbody>
+          <!--테이블 행 열 합치기 colspan(자기포함 합치는 칸 수), rowspan(위아래 합치기)-->
+   <tfoot>
+        <tr>
+            <th rowspan="2">취미</th>
+            <td>숙면</td>
+            <th rowspan="2">특기</th>
+            <td>노래</td>
+        </tr>
+        <tr>
+            <td>음악감상</td>
+            <td>연주</td>
+        </tr>
+    </tfoot>
+</table>
+</figure>
+<figcaption>
+    디미고 소개 페이지
+</figcaption>
+   
+    </body>
+
+    <html></html>
